@@ -1,0 +1,25 @@
+{
+  "name": "shigematsu/postcodejp",
+  "authors": [
+    {
+      "name": "shigematsu",
+      "email": "shigematsu.m@tam-tam.co.jp"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.0",
+    "vlucas/phpdotenv": "^5.1",
+    "ext-json": "*",
+    "google/apiclient": "^2.6"
+  },
+  "config": {
+    "platform": {
+      "php": "7.4.4"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "src\\": "./"
+    }
+  }
+}
